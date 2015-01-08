@@ -32,12 +32,12 @@ img .top-navigation .logo {
 	letter-spacing: 0.03em;
 	float:right;
 	margin-right:60px;
-	margin-bottom: 10px;
+	
    
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
-    margin-top: 100px;
+    margin-top: 80px;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
