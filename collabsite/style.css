@@ -1,6 +1,5 @@
 
 
-
 .top-navigation {
 	background-image:url("http://i61.tinypic.com/2ziszu9.jpg");
 	background-repeat:no-repeat;
@@ -12,17 +11,13 @@
 
 
 }
-img .top-navigation .logo {
-	top:0;
-	
-
-}
 
 .top-navigation .links {
+	margin-left:100px;
 	
 	letter-spacing: 0.03em;
 	float:right;
-	margin-right:60px;
+	margin-right:20px;
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
