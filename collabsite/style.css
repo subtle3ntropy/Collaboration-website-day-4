@@ -1,11 +1,4 @@
 
-body {
-	width:100%;
-	background-image:url("http://madworldnews.com/wp-content/uploads/2014/08/homelessness-look-away.jpg"
-		)
-
-
-}
 
 
 .top-navigation {
@@ -17,33 +10,34 @@ body {
 	top:0;
 	height:120px;
 
+
 }
 img .top-navigation .logo {
 	top:0;
 	
 
 }
-.top-navigation .nextToLogo {
-	color:#838994;
 
-}
 .top-navigation .links {
 	
 	letter-spacing: 0.03em;
 	float:right;
 	margin-right:60px;
-	
-   
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 80px;
     -webkit-font-smoothing: antialiased;
 }
-.top-navigation .links li {
+.top-navigation .links  li {
     display: inline-block;
     margin-left: 25px;
 }
+.top-navigation .links  p {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 
 .top-navigation .links li:hover {
     cursor: pointer;
