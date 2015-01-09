@@ -13,58 +13,67 @@ body {
   z-index: -2;
 }
 
+/* .middle {
+  position: center;
+  color: #A09E9E;
+  z-index: 2;
+  margin-right: 400px;
+} */
+
 .top-navigation {
-  /* background-image:url("http://i61.tinypic.com/2ziszu9.jpg"); */
+  font-size:16px;
+  /* background-image:url("http://i57.tinypic.com/2roncyp.jpg"); */
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size:80%;
   border: 5px solid #a1a1a1;
   background-color: black;
   top:0;
-  height:120px;
+  height:150px;
 
 }
-/* img .top-navigation .logo {
-  top:0;
-} */
-.top-navigation .nextToLogo {
-  color:#838994;
 
-}
 .top-navigation .links {
-  
   letter-spacing: 0.03em;
   float:right;
-  margin-right:60px;
-  
-   
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 80px;
+  margin-right:20px;
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  margin-top: 90px;
+    
 }
-.top-navigation .links li {
-    display: inline-block;
-    margin-left: 25px;
+.top-navigation .links  a {
+  display: inline-block;
+  margin-left: 10px;
+}
+.top-navigation .links  p {
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
+a:link {
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  text-decoration: none;
+}
+
+.top-navigation .links a:hover {
+  cursor: pointer;
+  color: #333333;
 }
 
 .inner {  
   border: 15px solid #787878;
-    padding: 10px 40px; 
-    border-radius: 25px;
+  padding: 10px 40px; 
+  border-radius: 25px;
   background-color:#E8E8E8;
-    display:block;
-    margin: 0 auto;
-    max-width: 70%;
-    height: 600px;
-    font-size: 55px;
+  display:block;
+  margin: 0 auto;
+  max-width: 70%;
+  height: 600px;
+  font-size: 55px;
 }
 
-.btn {
+.butt {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -86,7 +95,7 @@ body {
   margin-right: 270px;
 }
 
-.btn:hover {
+.butt:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -96,8 +105,9 @@ body {
   text-decoration: none;
 }
 
-.site_link_here {
-  font-size: 50px;
+.icons {
+  position: center;
+  float: right; 
 
 }
 
