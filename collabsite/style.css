@@ -1,7 +1,6 @@
 
-
 .top-navigation {
-	background-image:url("http://i61.tinypic.com/2ziszu9.jpg");
+	background-image:url("http://i59.tinypic.com/199vyp.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	border: 5px solid #a1a1a1;
@@ -13,7 +12,7 @@
 }
 
 .top-navigation .links {
-	margin-left:100px;
+	
 	
 	letter-spacing: 0.03em;
 	float:right;
@@ -22,20 +21,49 @@
     color: #838994;
     font-size: 16px;
     margin-top: 80px;
-    -webkit-font-smoothing: antialiased;
+    
 }
 .top-navigation .links  li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .top-navigation .links  p {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.inner {  
+	border: 15px solid #787878 ;
+    padding: 10px 90px; 
+    border-radius: 25px;
+	background-color:#E8E8E8 ;
+  display:block;
+  margin: 0 auto;
+  max-width: 70%;
+  
+}
+div .inner {
+	height: 100%;
+}
+p {
+	font-size:18px;
+}
+
+.icons {
+cursor: pointer;
+
+
+    display: inline-block;
+ 
+   
+   
+ 
+
 }
 
