@@ -3,38 +3,45 @@ body {
 	width:100%;
 	}
 .top-navigation {
-	background-image:url("http://i61.tinypic.com/2ziszu9.jpg");
+	font-size:16px;
+	background-image:url("http://i57.tinypic.com/2roncyp.jpg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:80%;
 	border: 5px solid #a1a1a1;
 	background-color: black;
 	top:0;
-	height:120px;
+	height:150px;
+
 }
 
 .top-navigation .links {
-	margin-left:100px;
+	
 	
 	letter-spacing: 0.03em;
 	float:right;
 	margin-right:20px;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 80px;
-    -webkit-font-smoothing: antialiased;
+  
+    margin-top: 90px;
+    
 }
-.top-navigation .links  li {
+.top-navigation .links  a {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .top-navigation .links  p {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
+a:link {
+	    font-family: 'Roboto', sans-serif;
+    color: #838994;
+	text-decoration: none;
+}
 
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
     cursor: pointer;
     color: #333333;
 }
@@ -97,6 +104,7 @@ h2 {
 	background-color: #d73030;
 	margin-bottom: 100px;
 	padding: 1em;
+	border: 1px solid black;
 /*	float: left;
 */
 
@@ -164,14 +172,16 @@ form {
 	float: right;
 	margin-right: 30px;	
 	margin-top: 25px;
+	border: 1px solid black;
 }
 
 footer {
 	clear: both;
-	height: 100px;
+	height: 120px;
 	width: 100%;
 	background-color: #a0a0a0;
 	margin-bottom: 80px;
+	border-top: 4px solid black;
 }
 .bottom-nav .link{
 	display: inline;
@@ -184,6 +194,14 @@ footer {
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
+}
+.icons {
+	clear: both;
+	margin-left: 450px;
+	padding: 0px 30px 30px 30px;
+}
+ul > a {
+	margin: 0 20px 0 20px;
 }
 
 
