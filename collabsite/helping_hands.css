@@ -1,41 +1,41 @@
 
 body {
-	width:100%;
-	border-width: 900px;
+  width:100%;
+  border-width: 900px;
 }
 
 #bg {
-	position: fixed;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
 }
 
 .top-navigation {
-	/* background-image:url("http://i61.tinypic.com/2ziszu9.jpg"); */
-	background-repeat:no-repeat;
-	background-size: cover;
-	border: 5px solid #a1a1a1;
-	background-color: black;
-	top:0;
-	height:120px;
+  /* background-image:url("http://i61.tinypic.com/2ziszu9.jpg"); */
+  background-repeat:no-repeat;
+  background-size: cover;
+  border: 5px solid #a1a1a1;
+  background-color: black;
+  top:0;
+  height:120px;
 
 }
 /* img .top-navigation .logo {
-	top:0;
+  top:0;
 } */
 .top-navigation .nextToLogo {
-	color:#838994;
+  color:#838994;
 
 }
 .top-navigation .links {
-	
-	letter-spacing: 0.03em;
-	float:right;
-	margin-right:60px;
-	
+  
+  letter-spacing: 0.03em;
+  float:right;
+  margin-right:60px;
+  
    
     font-family: 'Roboto', sans-serif;
     color: #838994;
@@ -53,14 +53,15 @@ body {
 }
 
 .inner {  
-	border: 15px solid #787878;
+  border: 15px solid #787878;
     padding: 10px 40px; 
     border-radius: 25px;
-	background-color:#E8E8E8;
-  	display:block;
-  	margin: 0 auto;
-  	max-width: 70%;
-  	height: 600px;
+  background-color:#E8E8E8;
+    display:block;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 600px;
+    font-size: 55px;
 }
 
 .btn {
@@ -79,6 +80,10 @@ body {
   font-size: 40px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  width: 300px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 270px;
 }
 
 .btn:hover {
@@ -91,6 +96,8 @@ body {
   text-decoration: none;
 }
 
+.site_link_here {
+  font-size: 50px;
 
-
+}
 
