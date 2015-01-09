@@ -1,5 +1,6 @@
 
 .top-navigation {
+	font-size:16px;
 	background-image:url("http://i59.tinypic.com/199vyp.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -18,7 +19,7 @@
 	margin-right:20px;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
+  
     margin-top: 80px;
     
 }
@@ -51,10 +52,12 @@ div .inner {
 	height: 100%;
 }
 p {
-	font-size:18px;
+	font-size:20px;
 }
 
 ul .icons {
+	margin-left:auto;
+	margin-right:auto;
 cursor: pointer;
 
 
