@@ -1,13 +1,13 @@
 
 .top-navigation {
 	font-size:16px;
-	background-image:url("http://i59.tinypic.com/199vyp.jpg");
+	background-image:url("http://i57.tinypic.com/2roncyp.jpg");
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:80%;
 	border: 5px solid #a1a1a1;
 	background-color: black;
 	top:0;
-	height:120px;
+	height:150px;
 
 }
 
@@ -20,10 +20,10 @@
     font-family: 'Roboto', sans-serif;
     color: #838994;
   
-    margin-top: 80px;
+    margin-top: 90px;
     
 }
-.top-navigation .links  li {
+.top-navigation .links  a {
     display: inline-block;
     margin-left: 10px;
 }
@@ -32,8 +32,13 @@
     margin-left: 20px;
 }
 
+a:link {
+	    font-family: 'Roboto', sans-serif;
+    color: #838994;
+	text-decoration: none;
+}
 
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
     cursor: pointer;
     color: #333333;
 }
@@ -46,20 +51,14 @@
   display:block;
   margin: 0 auto;
   max-width: 70%;
+  height: 100%;
+	margin-top: 20px;
   
 }
-div .inner {
+.inner {
 	height: 100%;
+	margin-top: 20px;
 }
 p {
 	font-size:20px;
 }
-
-ul .icons {
-	margin-left:auto;
-	margin-right:auto;
-cursor: pointer;
-
-
-}
-
