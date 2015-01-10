@@ -56,7 +56,7 @@ body {
   border: 15px solid #787878;
     padding: 10px 40px; 
     border-radius: 25px;
-  background-color:#E8E8E8;
+    background-color:#E8E8E8;
     display:block;
     margin: 0 auto;
     max-width: 70%;
@@ -95,9 +95,9 @@ body {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-
 .site_link_here {
   font-size: 50px;
+
 
 }
 
