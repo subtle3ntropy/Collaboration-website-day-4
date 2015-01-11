@@ -52,14 +52,9 @@ section {
 	width: 100%;
 	border-bottom: 1px dotted grey;
 }
-#pic {
-	left: 0;
-	right: 0;
-	/* preserve aspect ratio*/
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
-}
+
+
+
 h1 {
 	font-size: 50px;
 	color: black;
@@ -72,8 +67,6 @@ p {
 	margin-left: 200px;
 	margin-right: 300px;
 }
-
-
 
 .second {
 	height: 620px;
@@ -189,12 +182,13 @@ footer {
 	display: inline;
 	float: left;
 	clear: both;
+
 }
 .bottom-nav .link .horiz {
 	display: inline;
 	margin-left: 200px;
 	font-size: 20px;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 .icons {
@@ -205,6 +199,19 @@ footer {
 ul > a {
 	margin: 0 20px 0px 20px;
 }
+a:hover{
+	cursor: pointer;
+	color: white;
+}
+/*
+#pic {
+	left: 0;
+	right: 0;
+	/* preserve aspect ratio*/
+	/*min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}*/
 
 
 
